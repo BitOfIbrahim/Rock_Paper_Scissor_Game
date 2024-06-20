@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="images">
+        <img src="images/rock.png" onclick="gameStarted('1', this)" id="image1">
+        <img src="images/paper.webp" onclick="gameStarted('2', this)" id="image2">
+        <img src="images/scissor.png" onclick="gameStarted('3', this)" id="image3">
+    </div>
+
+    <div class="container">
+        <div class="container1" >
+            <h2>Let see who will win!!!! </h2>
+            <h3 class="user">What user picked ?</h3>
+            <h3 class="computer">What computer picked ?</h3>      
+        </div> 
+
+        <div class="container2">
+            <div >
+                <h3 id="user">User</h3>
+                <h4 id="win_of_user">Wins</h4>
+            </div>
+    
+            <div >
+                <h3 id = "comp">Computer</h3>
+                <h4 id="win_of_computer">Wins</h4>
+            </div>
+    
+            <div >
+                <h3>Draw</h3>
+                <h4 id="win_of_draw">Wins</h4>
+            </div>
+    
+        </div>
+
+    </div>
+   
+
+    
+
+
+    
+
+    <script src="basic.js"></script>
+</body>
+</html>
